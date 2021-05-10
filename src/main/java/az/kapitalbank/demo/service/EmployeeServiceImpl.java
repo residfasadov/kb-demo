@@ -8,7 +8,7 @@ public interface EmployeeServiceImpl {
 
     List<EmployeeDTO> findAll();
 
-    void save(EmployeeDTO employeeDTO);
+    EmployeeDTO save(EmployeeDTO employeeDTO);
 
     EmployeeDTO getById(Long id);
 
