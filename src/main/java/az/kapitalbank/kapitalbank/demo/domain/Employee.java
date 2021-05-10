@@ -19,5 +19,6 @@ public class Employee extends AbstractEntity implements Serializable {
     private Long id;
     private String name;
     private String surname;
+    private String position;
 
 }

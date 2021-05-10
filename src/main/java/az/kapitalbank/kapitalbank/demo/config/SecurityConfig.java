@@ -36,8 +36,8 @@ public class SecurityConfig {
                         .antMatchers("/auth/signin").permitAll()
                         .anyRequest().authenticated()
                 )
-                .addFilterBefore(new JwtTokenAuthenticationFilter(tokenProvider), UsernamePasswordAuthenticationFilter.class)
-                .build();
+                .addFilterBefore(new JwtTokenAuthenticationFilter(tokenProvider),
+                        UsernamePasswordAuthenticationFilter.class).build();
     }
 
     @Bean
@@ -61,7 +61,6 @@ public class SecurityConfig {
             if (!user.isEnabled()) {
                 throw new DisabledException("User account is not active");
             }
-
             return new UsernamePasswordAuthenticationToken(username, null, user.getAuthorities());
         };
     }

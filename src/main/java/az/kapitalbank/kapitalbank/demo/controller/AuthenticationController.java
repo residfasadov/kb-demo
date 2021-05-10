@@ -23,23 +23,26 @@ import static org.springframework.http.ResponseEntity.ok;
 @RequestMapping("/auth")
 @RequiredArgsConstructor
 public class AuthenticationController {
-    
+
     private final AuthenticationManager authenticationManager;
-    
+
     private final JwtTokenProvider jwtTokenProvider;
-    
+
     private final UserRepository users;
-    
+
     @PostMapping("/signin")
     public ResponseEntity signin(@RequestBody AuthenticationRequest data) {
-        
+
         try {
             String username = data.getUsername();
-            var authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, data.getPassword()));
+            var authentication = authenticationManager.authenticate
+                    (new UsernamePasswordAuthenticationToken(username, data.getPassword()));
+
             String token = jwtTokenProvider.createToken(authentication);
             Map<Object, Object> model = new HashMap<>();
             model.put("username", username);
             model.put("token", token);
+
             return ok(model);
         } catch (AuthenticationException e) {
             throw new BadCredentialsException("Invalid username/password supplied");
