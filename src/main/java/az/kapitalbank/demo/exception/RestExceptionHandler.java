@@ -19,5 +19,4 @@ public class RestExceptionHandler {
 
         return notFound().build();
     }
-
 }
