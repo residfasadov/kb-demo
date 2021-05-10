@@ -9,9 +9,10 @@ import java.time.LocalDateTime;
 
 @MappedSuperclass
 public abstract class AbstractEntity {
+
     @CreationTimestamp
     protected LocalDateTime createdAt;
+
     @UpdateTimestamp
     protected LocalDateTime updatedAt;
-
 }
