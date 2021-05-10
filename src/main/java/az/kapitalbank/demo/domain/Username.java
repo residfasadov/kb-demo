@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.domain;
+package az.kapitalbank.demo.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

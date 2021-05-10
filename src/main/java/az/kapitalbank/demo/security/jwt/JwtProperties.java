@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.security.jwt;
+package az.kapitalbank.demo.security.jwt;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,6 +1,6 @@
-package az.kapitalbank.kapitalbank.demo.config;
+package az.kapitalbank.demo.config;
 
-import az.kapitalbank.kapitalbank.demo.domain.Username;
+import az.kapitalbank.demo.domain.Username;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;

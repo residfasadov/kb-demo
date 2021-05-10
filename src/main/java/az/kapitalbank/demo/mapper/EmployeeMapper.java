@@ -1,8 +1,8 @@
-package az.kapitalbank.kapitalbank.demo.mapper;
+package az.kapitalbank.demo.mapper;
 
 
-import az.kapitalbank.kapitalbank.demo.domain.Employee;
-import az.kapitalbank.kapitalbank.demo.dto.EmployeeDTO;
+import az.kapitalbank.demo.domain.Employee;
+import az.kapitalbank.demo.dto.EmployeeDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

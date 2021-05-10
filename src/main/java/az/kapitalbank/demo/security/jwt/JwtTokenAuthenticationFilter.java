@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.security.jwt;
+package az.kapitalbank.demo.security.jwt;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

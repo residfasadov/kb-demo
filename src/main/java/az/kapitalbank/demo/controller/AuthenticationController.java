@@ -1,8 +1,8 @@
-package az.kapitalbank.kapitalbank.demo.controller;
+package az.kapitalbank.demo.controller;
 
-import az.kapitalbank.kapitalbank.demo.repository.UserRepository;
-import az.kapitalbank.kapitalbank.demo.security.jwt.JwtTokenProvider;
-import az.kapitalbank.kapitalbank.demo.web.AuthenticationRequest;
+import az.kapitalbank.demo.repository.UserRepository;
+import az.kapitalbank.demo.security.jwt.JwtTokenProvider;
+import az.kapitalbank.demo.web.AuthenticationRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

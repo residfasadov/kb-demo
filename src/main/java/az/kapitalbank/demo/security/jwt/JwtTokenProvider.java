@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.security.jwt;
+package az.kapitalbank.demo.security.jwt;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

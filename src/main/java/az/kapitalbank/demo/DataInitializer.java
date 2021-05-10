@@ -1,7 +1,7 @@
-package az.kapitalbank.kapitalbank.demo;
+package az.kapitalbank.demo;
 
-import az.kapitalbank.kapitalbank.demo.domain.User;
-import az.kapitalbank.kapitalbank.demo.repository.UserRepository;
+import az.kapitalbank.demo.domain.User;
+import az.kapitalbank.demo.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
