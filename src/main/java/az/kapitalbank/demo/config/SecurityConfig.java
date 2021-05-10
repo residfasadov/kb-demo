@@ -1,8 +1,8 @@
-package az.kapitalbank.kapitalbank.demo.config;
+package az.kapitalbank.demo.config;
 
-import az.kapitalbank.kapitalbank.demo.repository.UserRepository;
-import az.kapitalbank.kapitalbank.demo.security.jwt.JwtTokenAuthenticationFilter;
-import az.kapitalbank.kapitalbank.demo.security.jwt.JwtTokenProvider;
+import az.kapitalbank.demo.repository.UserRepository;
+import az.kapitalbank.demo.security.jwt.JwtTokenAuthenticationFilter;
+import az.kapitalbank.demo.security.jwt.JwtTokenProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;

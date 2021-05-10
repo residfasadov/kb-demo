@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.dto;
+package az.kapitalbank.demo.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

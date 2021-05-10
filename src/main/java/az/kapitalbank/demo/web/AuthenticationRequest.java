@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.web;
+package az.kapitalbank.demo.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

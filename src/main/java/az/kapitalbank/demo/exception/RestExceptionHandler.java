@@ -1,6 +1,6 @@
-package az.kapitalbank.kapitalbank.demo.exception;
+package az.kapitalbank.demo.exception;
 
-import az.kapitalbank.kapitalbank.demo.DemoApplication;
+import az.kapitalbank.demo.DemoApplication;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

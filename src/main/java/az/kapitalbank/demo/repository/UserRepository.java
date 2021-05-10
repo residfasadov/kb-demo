@@ -1,6 +1,6 @@
-package az.kapitalbank.kapitalbank.demo.repository;
+package az.kapitalbank.demo.repository;
 
-import az.kapitalbank.kapitalbank.demo.domain.User;
+import az.kapitalbank.demo.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

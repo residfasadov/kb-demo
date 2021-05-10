@@ -1,4 +1,4 @@
-package az.kapitalbank.kapitalbank.demo.exception;
+package az.kapitalbank.demo.exception;
 
 public class EmployeeNotFoundException extends RuntimeException {
     public EmployeeNotFoundException() {
