@@ -12,11 +12,12 @@ import static org.springframework.http.ResponseEntity.notFound;
 @RestControllerAdvice(basePackageClasses = {DemoApplication.class})
 @Slf4j
 public class RestExceptionHandler {
-    
+
     @ExceptionHandler(value = {EmployeeNotFoundException.class})
     public ResponseEntity vehicleNotFound(EmployeeNotFoundException ex, WebRequest request) {
-        log.debug("Exception ocurred with Employee");
+        log.debug("Employee not found exception");
+
         return notFound().build();
     }
-    
+
 }
